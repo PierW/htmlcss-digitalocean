@@ -1,0 +1,44 @@
+nav{
+  background-color: #0069ff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+}
+
+nav > .container{
+  height: 100%;
+}
+
+.row{
+  height:100%;
+}
+
+.blue{
+  background-color: #0069ff;
+  color: white;
+}
+
+.hero{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.left{
+  height: 100%;
+  line-height: 60px;
+}
+
+.left > span,
+.right > span{
+  font-weight: bold;
+  color: lightgrey;
+  margin-right: 10px;
+}
+
+.left >span:hover,
+.right >span:hover
+{
+  cursor: pointer;
+  color: white;
+}
