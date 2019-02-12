@@ -4,10 +4,7 @@ nav{
   top: 0;
   left: 0;
   height: 60px;
-}
-
-nav > .container{
-  height: 100%;
+  z-index: 1;
 }
 
 .row{
@@ -40,5 +37,19 @@ nav > .container{
 .right >span:hover
 {
   cursor: pointer;
+  color: white;
+}
+
+.holink:hover{
+  color: black!important;
+  cursor: pointer;
+  border-left: 2px solid blue;
+}
+
+footer{
+  background-color: #010e28!important;
+}
+
+footer li:first-child{
   color: white;
 }
