@@ -9,5 +9,5 @@ ___
 
 ## Preview
 ![Markdown Logo](screen.png)
-
+___
 ![Markdown Logo](responsive.png)
